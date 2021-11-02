@@ -1,8 +1,8 @@
 <?php
 
 class Pessoa{
-    private $nome;
-    private $cpf;
+    protected $nome;
+    protected $cpf;
 
 
 

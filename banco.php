@@ -20,10 +20,11 @@ $primeiraConta->sacar(200);
 
 //$primeiraConta->defineCPF("000.000.00-00");
 //$primeiraConta->defineNome("Roberto Alves");
-
 echo $primeiraConta->recuperarSaldo().PHP_EOL;
 echo $primeiraConta->retornaNome().PHP_EOL;
 echo $primeiraConta->retornaCpf().PHP_EOL;
+
+var_dump($primeiraConta);
 
 
 
