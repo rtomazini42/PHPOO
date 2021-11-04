@@ -1,7 +1,7 @@
 <?php
 
 class Conta{
-    private $titular;
+    public $titular;
     private $saldo;
     private static $numeroDeContas = 0;
 

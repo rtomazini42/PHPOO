@@ -1,8 +1,8 @@
 <?php
 
 class Pessoa{
-    protected $nome;
-    protected $cpf;
+    public $nome;
+    public $cpf;
 
 
 
@@ -20,7 +20,7 @@ class Pessoa{
 
     public function retornaCpf(): string
     {
-        return $this->CPF->recuperaNumero();
+        return $this->cpf->recuperaNumero();
     }
 
 
